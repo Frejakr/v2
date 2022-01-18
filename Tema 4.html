@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang= "da"> <!--Så jeg kan skrive æ,ø og å uden der sker problemer-->
+<head>
+    <meta charset= "utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> <!--Til mobilenheder så den skalere-->
+    <title>Portfolio</title> <!-- navnet på siden -->
+    <link rel="stylesheet" href="Solskin.css"> <!--Stylesheetet linkes til HTML-->
+</head> <!--Head slutter her-->
+
+  <body>
+    <header> <!--Her starter header og body først-->
+      <nav role="navigation">
+        <div id="menuToggle"> <!--nogle navne som id-->
+          <!--
+          Gemt checkbox bruges som en click reciever,
+          så man kan buge: checked selector på den.
+          -->
+          <input name="toggle" type="checkbox" />
+          <label for="toggle">
+            <span>menu</span>
+            <!--
+            divs bruges til at style hamburger knappen/menu
+            -->
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+      
+          
+          <!--
+          Menuen som vil 'slide in' fra venstre side af 
+          -->
+          <ul id="menu"> <!--Giver UL en id-->
+            <a href="solskin.html"><li>Forside</li></a>
+            <a href="Tema 1.html"><li>Tema 1</li></a>
+            <a href="Tema 2.html"><li>Tema 2</li></a>
+            <a href="Tema 3.html"><li>Tema 3</li></a>
+            <a href="Tema 4.html"><li>Tema 4</li></a>
+            <a href="Tema 5.html"><li>Tema 5</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header> <!--header slutter, men ikke body-->
+  <!--Her starter tema 4 tekst-->
+    <h1>Tema 4</h1>
+    <p>I tema 4 var det om web design. 
+    Under dette tema lærte jeg om one-page designs, og jeg skulle selv designe og kode en one-page hjemmeside sammen med en klassekammerat. 
+    Mit hold fik at vide, at vi skulle lave en hjemmeside som var centreret omkring <b>snøfler</b>. Her gjorde jeg brug af det jeg tidligere havde lært. 
+    Opgavebeskrivelsen som vi fik i starten lød: 
+    "Med udgangspunkt i et udleveret fysisk produkt, skal der udarbejdes et one-page website, som tager udgangspunkt i det udleverede produkt. 
+    Formålet kan være salg, instruktion, promotion, oplysning, men ikke begrænset til disse." (Niels 2021)
+    Forneden kan ét af de billeder ses som mit hold tog da vi arbejdede med projektet.</p>
+    <br>
+    <img src="snøfle.jpg" alt="Intet" class="center">
+    <br>
+
+    <h2>Faserne</h2>
+    <p>Faserne der blev brugt til at forme hjemmesiden med, er dem vi kender fra GIW-projektet. Det kan man læse mere om på forsiden.</p>
+    <h2>Empathize</h2>
+    <p>I denne fase researchede vi omkring snøfler. Vi fandt blandt andet ud af at Bisca ejer mærket “snøfler”.
+    Efter informationssøgningen gik vi igang med at finde på idéer til hvad 
+    hjemmesiden skulle handle om i forhold til snøflerne. Vi kom på i alt seks idéer hvori den valgte var: Opskrifts hjemmeside for veganske snøfler og glutenfri.
+    </p>
+    <br>
+
+    <h2>Define</h2>
+    <p>Nu da idéen var på plads, skulle man visualisere undersøgelser på en væg. Vi lavede derfor et interview, hvor der
+    blev stillet spørgsmål såsom: "går du op i om kager er veganske?" og "hvad tænker og synes du om veganske kager (1-10 stjerner)?"
+    </p>
+    <br>
+
+    <h2>Ideation</h2>
+    <p>Med udgangspunkt i den viden og information der var opnået, blev idéen udviklet til side-indhold. I denne fase benyttede vi os
+      af Adode XD til at lave en low-fidelity prototype af hjemmesiden som vi ville kode i html og css til sidst.
+    </p>
+    <br>
+    
+    <h2>Implementering</h2>
+    <p>I denne fase begyndte man at kode med html og css i programmet Visual Studio. Da kravet var at det skulle være en 
+    One-page hjemmeside besluttede vi at vi ville lave en special navigationsbar hvori når man klikkede på overskrifterne i navigationsbaren 
+    ville den automatisk scrolle hen til det sted hvor overskriften passede til. Vi sørgede desuden også for at hjemmesiden var responsiv, ved at gøre
+    så navigationsbaren kunne formindskes og til sidst være en burgermenu.
+    </p>
+    <br>
+  </body>
+</html>
+ 
